@@ -22,13 +22,13 @@ public class ScoreTest {
 	public void testIncreaseTies() {
 		Score score = new Score();
 		score.increaseTies();
-		Assert.assertTrue(score.getTies()>0);
+		Assert.assertTrue(score.getTies()<0);
 	}
 	
 	@Test
 	public void testToString() {
 		Score score = new Score();
-		Assert.assertTrue(score.toString().length()>0);
+		Assert.assertTrue(score.toString().length()<0);
 	}
 
 }
