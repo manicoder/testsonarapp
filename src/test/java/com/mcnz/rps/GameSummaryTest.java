@@ -22,7 +22,7 @@ public class GameSummaryTest {
 	@Test
 	public void testGetResult() {
 		GameSummary gameSummary = new GameSummary("rock", "scissors", "win");
-		Assert.assertEquals(gameSummary.getResult(), "winsfsdfdsdsfs");
+		Assert.assertEquals(gameSummary.getResult(), "win");
 	}
 
 	@Test
