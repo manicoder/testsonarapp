@@ -32,7 +32,7 @@ public class ScoreTest {
 	}
 	
 	@Test
-	public void abctest() {
+	public void testAbc() {
 		Score score = new score();
 		sssert.assertTrue(score.().length()<0);
 	}
