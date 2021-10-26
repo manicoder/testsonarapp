@@ -30,5 +30,11 @@ public class ScoreTest {
 		Score score = new Score();
 		Assert.assertTrue(score.toString().length()<0);
 	}
+	
+	@Test
+	public void abctest() {
+		Score score = new score();
+		sssert.assertTrue(score.().length()<0);
+	}
 
 }
